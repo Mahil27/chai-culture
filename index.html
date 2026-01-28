@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Culture | Brew the Royal Tradition</title>
+    <meta name="description" content="Chai Culture - Premium royal instant chai premix. Launching soon.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <svg class="tea-cup" viewBox="0 0 100 100">
+                <path class="cup-outline" d="M20,30 Q20,80 50,80 Q80,80 80,30 L20,30" fill="none" stroke="#D4AF37"
+                    stroke-width="2" />
+                <path class="cup-handle" d="M80,40 Q95,40 95,55 Q95,70 80,70" fill="none" stroke="#D4AF37"
+                    stroke-width="2" />
+                <path class="tea-liquid" d="M25,35 Q50,35 75,35 L75,35 Q75,75 50,75 Q25,75 25,35" fill="#D4AF37" />
+                <path class="smoke smoke-1" d="M40,20 Q45,10 40,0" fill="none" stroke="#D4AF37" stroke-width="1" />
+                <path class="smoke smoke-2" d="M50,20 Q55,10 50,0" fill="none" stroke="#D4AF37" stroke-width="1" />
+                <path class="smoke smoke-3" d="M60,20 Q65,10 60,0" fill="none" stroke="#D4AF37" stroke-width="1" />
+            </svg>
+            <div class="loader-text">Brewing Excellence...</div>
+        </div>
+    </div>
+
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Chai Culture Logo" class="brand-logo">
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <div class="badge-container">
+                <span class="launch-badge">Launching Soon</span>
+            </div>
+
+            <h1 class="headline">Brew the <span class="gold-text">Royal Tradition</span>
+                <div class="steam-container">
+                    <div class="steam-particle"></div>
+                    <div class="steam-particle"></div>
+                    <div class="steam-particle"></div>
+                    <div class="steam-particle"></div>
+                    <div class="steam-particle"></div>
+                </div>
+            </h1>
+            <p class="brand-description">Experience the elegance of heritage in every sip. Premium instant chai crafted
+                for the modern connoisseur.</p>
+
+            <div class="countdown-container">
+                <div class="time-block">
+                    <span id="days" class="time-val">00</span>
+                    <span class="time-label">Days</span>
+                </div>
+                <div class="separator">:</div>
+                <div class="time-block">
+                    <span id="hours" class="time-val">00</span>
+                    <span class="time-label">Hours</span>
+                </div>
+                <div class="separator">:</div>
+                <div class="time-block">
+                    <span id="minutes" class="time-val">00</span>
+                    <span class="time-label">Minutes</span>
+                </div>
+                <div class="separator">:</div>
+                <div class="time-block">
+                    <span id="seconds" class="time-val">00</span>
+                    <span class="time-label">Seconds</span>
+                </div>
+            </div>
+
+            <div class="signup-card glass-effect">
+                <h3>Join the Royal List</h3>
+                <p>Be the first to taste luxury.</p>
+                <form id="signup-form" class="signup-form">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="cta-button">Notify Me</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 Chai Culture. All Rights Reserved.</p>
+    </footer>
+
+    <div id="royal-modal" class="royal-modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-crown gold-icon"></i>
+            </div>
+            <h3 class="modal-title">Welcome to the Family</h3>
+            <p class="modal-message">Your royal journey awaits. We shall notify you upon our grand arrival.</p>
+            <button id="close-modal" class="modal-close-btn">Dismiss</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
